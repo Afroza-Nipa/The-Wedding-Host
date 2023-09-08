@@ -1,0 +1,61 @@
+
+.top-wedding-img {
+    position: relative;
+}
+
+.top-wedding-img div {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.376);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 60px;
+    margin-top:-10%;
+    transition: all .5s linear;
+}
+
+.top-wedding-item:hover .top-wedding-img div {
+    margin-top: 0;
+}
+
+.top-wedding-img div span {
+    color: white;
+    background: #e79523;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+
+
+.our-package-card p {
+    color: #848199;
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.our-special-package {
+background-color:#3F87F5 ;
+
+
+}
+
+.our-special-package span{
+    background-color: red;
+    color: white;
+    position: absolute;
+    border-radius: 30px;
+    font-size: 12px;
+    padding: 10px;
+    
+}
+
+.our-package-btn {
+    padding: .50rem 3rem;
+    border: none;
+    border-radius: 10px;
+    background: #FDF4FA;
+    color: #3F87F5;
+    font-weight: bold;
+}

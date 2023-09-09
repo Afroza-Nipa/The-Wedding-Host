@@ -1,6 +1,7 @@
 
 .top-wedding-img {
     position: relative;
+    overflow: hidden;
 }
 
 .top-wedding-img div {
@@ -12,7 +13,7 @@
     height: 100%;
     text-align: center;
     padding-top: 60px;
-    margin-top:-10%;
+    margin-top:-100%;
     transition: all .5s linear;
 }
 
@@ -37,18 +38,18 @@
 
 .our-special-package {
 background-color:#3F87F5 ;
-
+position: relative;
 
 }
 
-.our-special-package span{
+.best-sell{
     background-color: red;
     color: white;
     position: absolute;
-    border-radius: 30px;
+    border-radius: 10px;
     font-size: 12px;
-    padding: 10px;
-    
+    padding: 5px;
+    top: -10px;
 }
 
 .our-package-btn {
@@ -58,4 +59,16 @@ background-color:#3F87F5 ;
     background: #FDF4FA;
     color: #3F87F5;
     font-weight: bold;
+  
+}
+
+
+
+
+.our-package-list i {
+    background: #EDEBF8;
+    padding: .20rem;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: #9186df;
 }
